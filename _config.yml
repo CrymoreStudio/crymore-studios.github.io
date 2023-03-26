@@ -1,16 +1,28 @@
-name: Jekyll Themes
-url: http://matt.harzewski.com
-description: Insert tagline here
+name: "Jekyll true minimal theme"
+description: "Lightweight theme"
 
-permalink: /themes/:title/
+url: '' 
+baseurl: ''
 
-plugins: [jekyll-paginate]
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+highlighter: rouge
 
-highlighter: pygments
-paginate: 20
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-markdown: rdiscount
-rdiscount:
-    extensions: ['smart']
+plugins:
+  - jekyll-paginate
+paginate: 10
+paginate_path: /page-:num
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
+#disqus-id: your-disqus-id
+
+source: .
+destination: ./_site
+
+sass:
+    style: :compressed
+    sass_dir: assets/css/
+
