@@ -1,9 +1,7 @@
 # Setup
 title: Trip Shift
 tagline: "Have you ever found yourself in a surreal and twisted world of your own making?"
-url: crymore.studio
 paginate: 1
-baseurl: ""
 permalink: :title/
 
 kramdown:
