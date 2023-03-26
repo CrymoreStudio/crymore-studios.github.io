@@ -3,6 +3,7 @@ author: CRYMore Studios
 email: your-email@domain.com
 description: Welcome to Trip Shift, the industrial horror game that takes you on a mind-bending journey through an otherworldly clothes factory.  Navigate through a series of strange and twisted tasks given to you by an unseen supervisor, all while battling the effects of powerful drugs that alter your perception and gameplay mechanics. Can you make it through the six surreal days and escape the factory before it's too late?
 show_excerpts: true # set to true to show excerpts on the homepage
+remote_theme: samarsault/texture
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -16,13 +17,12 @@ texture:
   date_format: "%b %-d, %Y"
   style: black
   showNav: false
-  showPicker: true
+  showPicker: false
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
+    github:  Viibrant
+    linkedIn: in/connorbrook
     rss: rss
  
 
