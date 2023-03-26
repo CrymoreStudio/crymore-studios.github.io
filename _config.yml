@@ -1,7 +1,7 @@
-name: "Jekyll true minimal theme"
-description: "Lightweight theme"
+name: "Trip Shift"
+description: "Surrealist Horror Indie Game."
 
-url: '' 
+url: 'crymore.studio' 
 baseurl: ''
 
 markdown: kramdown
